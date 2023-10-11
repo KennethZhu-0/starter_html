@@ -1,0 +1,37 @@
+.navigation {
+    list-style: none;
+    padding: 0;
+    height:50px;
+}
+
+
+.navigation li{
+    text-decoration: none;
+    color:white;
+    background-color: darkorange;
+    text-align: center;
+    display:inline-block;
+    width:33%;
+    height:100%;
+    margin:auto auto;
+    line-height:50px;
+}
+
+.navigation li.active {
+    background-color:darkslategrey;
+}
+.navigation .active a {
+   color:white;
+}
+.navigation li a {
+    font-size:20px;
+    padding:auto 0;
+}
+.navigation li:hover {
+    background-color: white;
+    color: blueviolet;
+}
+
+.navigation li a:hover{
+    color:black;
+}
